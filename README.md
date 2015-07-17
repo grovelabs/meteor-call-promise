@@ -8,7 +8,7 @@ promise.then((res) => {
   // res is whatever the callback would have returned
 });
 promise.catch((err) => {
-  // this is called if there was an error thrown on the server
+  // this is called if there was an error thrown from the Meteor method
 });
 
 ```
