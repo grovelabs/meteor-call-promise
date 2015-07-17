@@ -1,5 +1,5 @@
 # Meteor Promise
-Instead of using a callback with `Meteor.call`, you can use `Meteor.promise` and get a Promise in return. It has the same API as `Meteor.call`, but returns the control of the program to the caller rather than the callee.
+Instead of using a callback with `Meteor.call`, you can use `Meteor.callPromise` and get a Promise in return. It has the same API as `Meteor.call`, but returns the control of the program to the caller rather than the callee by using Promises.
 
 ## Usage
 ```js
