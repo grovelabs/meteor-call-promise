@@ -17,3 +17,10 @@ You could also be less verbose and drop the `promise` reference and chain the `t
 
 ## No longer in a Fiber
 The functions you pass to `then` and `catch` are no longer within a Fiber, so if you're on the server and touching any Meteor code, e.g. querying a Collection, test reporting in TinyTest, etc., you'll need to wrap the function with `Meteor.bindEnvironment`. See the tests for how to do this. You didn't have to worry about that when using giving callbacks to `Meteor.call` because Meteor automagically puts the callback in a Fiber for you.
+
+## Testing
+
+```bash
+$ npm test
+```
+You'll have to open `localhost:3000` to see the tests run
