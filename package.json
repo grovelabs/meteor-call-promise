@@ -1,0 +1,10 @@
+{
+  "name": "call-promise",
+  "version": "0.0.1",
+  "description": "Meteor.call with Promises instead of callbacks",
+  "scripts": {
+    "test": "meteor test-packages ./"
+  },
+  "author": "software@grovelabs.io",
+  "license": "ISC"
+}
