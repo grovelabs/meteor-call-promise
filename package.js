@@ -7,23 +7,23 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'grigio:babel@0.1.4',
+    'ecmascript@0.1.3-plugins.1',
   ]);
   api.addFiles([
-    'lib/call-promise.es6'
+    'lib/call-promise.js'
   ], ['client', 'server']);
 });
 
 Package.onTest(function(api) {
   api.use('grove:call-promise');
   api.use([
-    'grigio:babel@0.1.4',
+    'ecmascript@0.1.3-plugins.1',
     'tinytest'
   ]);
   api.addFiles([
-    'tests/server/Methods.es6'
+    'tests/server/Methods.js'
   ], 'server');
   api.addFiles([
-    'tests/lib/call-promise.es6'
+    'tests/lib/call-promise.js'
   ], ['client', 'server']);
 });
