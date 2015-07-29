@@ -1,6 +1,6 @@
 {
   "name": "call-promise",
-  "version": "0.0.2",
+  "version": "1.0.0-beta.1",
   "description": "Meteor.call with Promises instead of callbacks",
   "scripts": {
     "test": "meteor test-packages ./"

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'grove:call-promise',
-  version: '0.0.2',
+  version: '1.0.0-beta.1',
   summary: 'Meteor.call with Promises instead of callbacks',
   git: 'https://github.com/grovelabs/meteor-call-promise',
 });
